@@ -1,6 +1,7 @@
 # Holodex.NET
 ![](https://i.imgur.com/iRyguLg.png)
-A C# wrapper for the [Holodex](https://holodex.net/home) API.
+
+A C# wrapper for the [Holodex](https://holodex.net/home) API. Uses .NET Standard 2.0.
 ## Features
 - Fully asynchronous
 - Provides built-in HttpClient or you can provide your own
