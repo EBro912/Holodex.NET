@@ -12,7 +12,9 @@ A C# wrapper for the [Holodex](https://holodex.net/home) API. Uses .NET Standard
 - Newtonsoft.Json v13.0.1 or greater
 
 ## Installation
-Todo
+```
+PM> Install-Package Holodex.NET
+```
 
 ## Getting Started
 ```csharp
