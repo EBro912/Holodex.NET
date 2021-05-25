@@ -5,7 +5,7 @@ A C# wrapper for the [Holodex](https://holodex.net/home) API. Uses .NET Standard
 ## Features
 - Fully asynchronous
 - Provides built-in HttpClient or you can provide your own
-- Provides all valid endpoint parameter strings, so you dont have to consult documentation
+- Provides all valid endpoint parameter strings, so you dont have to consult the Holodex documentation
 - Supports all current GET endpoints
 
 ## Dependencies
