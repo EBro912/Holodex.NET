@@ -25,4 +25,7 @@ Console.WriteLine(ch.EnglishName); // Usada Pekora
 Console.WriteLine(ch.Subscribers); // 1480000 
 ```
 ## Documentation
-Todo
+Documentation can be found using either Intellisense or the [Official Documentation](https://ebro912.gitbook.io/holodex-net/).
+
+## Issues and Bugs
+Any issues and/or bugs should be reported via the issue tracker, or on the [Holodex Discord](https://discord.gg/A24AbzgvRJ), and ask me, All Toasters Toast Toast #0001.
