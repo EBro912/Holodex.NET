@@ -1,4 +1,6 @@
 # Holodex.NET
+[![NuGet](https://img.shields.io/nuget/v/Holodex.NET.svg)](https://www.nuget.org/packages/Holodex.NET)
+
 ![](https://i.imgur.com/iRyguLg.png)
 
 A C# wrapper for the [Holodex](https://holodex.net/home) API. Uses .NET Standard 2.0.
