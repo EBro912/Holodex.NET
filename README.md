@@ -6,8 +6,9 @@
 A C# wrapper for the [Holodex](https://holodex.net/home) API. Uses .NET Standard 2.0.
 ## Features
 - Fully asynchronous
+- Uses StringBuilder to build request strings
 - Provides built-in HttpClient or you can provide your own
-- Provides all valid endpoint parameter strings, so you dont have to consult the Holodex documentation
+- Provides all valid endpoint parameters in enums and classes, so you dont have to consult the Holodex documentation
 - Supports all current GET endpoints
 
 ## Dependencies
@@ -30,4 +31,4 @@ Console.WriteLine(ch.Subscribers); // 1480000
 Documentation can be found using either Intellisense or the [Official Documentation](https://ebro912.gitbook.io/holodex-net/).
 
 ## Issues and Bugs
-Any issues and/or bugs should be reported via the issue tracker, or on the [Holodex Discord](https://discord.gg/A24AbzgvRJ), and ask me, All Toasters Toast Toast #0001.
+Any issues and/or bugs should be reported via the issue tracker, or on the [Holodex Discord](https://discord.gg/A24AbzgvRJ), and reported to me, All Toasters Toast Toast #0001.
