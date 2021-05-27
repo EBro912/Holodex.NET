@@ -7,10 +7,25 @@
     <Company>EBro912</Company>
     <Description>A C# Wrapper for the Holodex API</Description>
     <Copyright>Copyright 2021</Copyright>
+    <PackageLicenseExpression>GPL</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/EBro912/Holodex.NET</PackageProjectUrl>
+    <PackageIcon>holodexnet_logo.png</PackageIcon>
+    <PackageTags>holodex wrapper</PackageTags>
+    <PackageReleaseNotes>Hotfix to remove Console.WriteLines used during debugging</PackageReleaseNotes>
+    <NeutralLanguage />
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="holodexnet_logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

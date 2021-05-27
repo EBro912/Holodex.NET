@@ -394,8 +394,6 @@ namespace Holodex.NET
                 throw new HttpRequestException(e.Message);
             }
 
-            Console.WriteLine(response);
-
             JArray result;
             // since errors are returned as objects, we have to handle if the json fails to deserialize to a JArray
             try
@@ -433,8 +431,6 @@ namespace Holodex.NET
             {
                 throw new HttpRequestException(e.Message);
             }
-
-            Console.WriteLine(response);
 
            
             JObject result = JObject.Parse(response);
