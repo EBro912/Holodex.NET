@@ -9,6 +9,7 @@ A C# wrapper for the [Holodex](https://holodex.net/home) API. Uses .NET Standard
 - Uses StringBuilder to build request strings
 - Provides built-in HttpClient or you can provide your own
 - Provides all valid endpoint parameters in enums and classes, so you dont have to consult the Holodex documentation
+(includes 20+ VTuber organizations!)
 - Supports all current GET endpoints
 
 ## Dependencies
