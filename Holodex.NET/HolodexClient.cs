@@ -189,7 +189,7 @@ namespace Holodex.NET
         /// <returns></returns>
         public async Task<IReadOnlyCollection<Video>> GetLiveVideosByChannelId(string[] channelIds)
         {
-            StringBuilder sb = new StringBuilder("users/live?");
+            StringBuilder sb = new StringBuilder("users/live?channels=");
             for (int i = 0; i < channelIds.Length - 1; i++)
             {
                 sb.Append(channelIds[i]);
